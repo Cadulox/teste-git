@@ -1,0 +1,15 @@
+﻿using System;
+
+namespace TiposValor {
+    class Program {
+        static void Main(string[] args) {
+
+            Point p;
+            p.X = 10; // Em um STRUCT eu também preciso inicializar as variáveis
+            p.Y = 20;
+            Console.WriteLine(p);
+            p = new Point();
+            Console.WriteLine(p);
+        }
+    }
+}
